@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.egsinp": "octave",
+        "*.make": "makefile",
+        "*.mortran": "FortranFreeForm",
+        "*.f90": "fortran-modern",
+        "string_view": "c",
+        "stdio.h": "c",
+        "fcntl.h": "c",
+        "random": "c",
+        "complex": "c"
+    }
+}
