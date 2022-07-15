@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "*.egsinp": "octave",
+        "*.make": "makefile",
+        "*.mortran": "FortranFreeForm",
+        "*.f90": "fortran-modern",
+        "atomic": "c",
+        "*.tcc": "c",
+        "fstream": "c",
+        "sstream": "c",
+        "unistd.h": "c",
+        "stdint.h": "c",
+        "float.h": "c",
+        "math.h": "c",
+        "string.h": "c",
+        "complex.h": "c",
+        "random": "cpp",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "ranges": "c",
+        "complex": "cpp",
+        "chrono": "c",
+        "algorithm": "c"
+    }
+}
