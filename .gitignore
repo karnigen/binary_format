@@ -1,0 +1,14 @@
+
+# python
+*.egg-info/
+__pycache__/
+dist/
+
+
+# fortran
+fortran/build*
+fortran/bin/*
+
+# c / cpp
+c/build*
+c/bin/*
