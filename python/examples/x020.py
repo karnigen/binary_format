@@ -13,7 +13,7 @@ def read_binf(fi):
 
 
 def main():
-    fn=Path("x010_data_c.binf")
+    fn=Path("../../data/x010_data_c_std.binf")
 #    fn=Path("x010_data_f.binf")
     # with fn.open("wb") as fo:
     #     write_binf(fo)
