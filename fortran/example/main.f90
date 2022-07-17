@@ -386,7 +386,7 @@ subroutine test_uni_io()
     integer(c_int) :: fi,fo           ! file handler
     integer :: ret                    ! return value of funcion call
 
-    fn = "../../python/x010_data_f_uni.binf"
+    fn = "x010_data_f_uni.binf"
     ! -------------------------------------------------
     fo = binff_uni_open(fn,"w")  ! return bio and handler
     print *, "F open handler", fo
@@ -425,7 +425,7 @@ subroutine test_std_io()
     type(c_ptr) :: fi,fo              ! FILE*
     integer :: ret                    ! return value of funcion call
 
-    fn = "../../python/x010_data_f_std.binf"
+    fn = "x010_data_f_std.binf"
     ! -------------------------------------------------
     fo = binff_std_open(fn,"w")  ! return bio and handler
     print "('F open handler 0x',Z0)", fo
@@ -467,7 +467,7 @@ subroutine test_zip_io()
     type(c_ptr) :: fi,fo              ! FILE*
     integer :: ret                    ! return value of funcion call
 
-    fn = "../../python/x010_data_f_zip.binf"
+    fn = "x010_data_f_zip.binf"
     ! -------------------------------------------------
     buf = "xz -z - >" // trim(fn)
     fo = binff_zip_open(buf,"w")  ! return bio and handler

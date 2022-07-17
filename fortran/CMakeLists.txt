@@ -7,7 +7,7 @@ FortranCInterface_VERIFY()
 
 add_executable(binfor)
 target_sources(binfor PUBLIC 
-    main.f90
+    example/main.f90
     binary_format/binff.f90 
     binary_format/binff.c 
     binary_format/binf.c
