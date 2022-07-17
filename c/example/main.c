@@ -293,7 +293,7 @@ int check_reader(BinF_IO *bio) {
 int test_uni_io() {
     BinF_IO bio;
 
-    char *fn = "../../python/x010_data_c_uni.binf";
+    char *fn = "x010_data_c_uni.binf";
 
     // ----------------------------------------------
     int fo = open(fn,O_WRONLY|O_CREAT|O_TRUNC,0644); // create and truncate !!!
@@ -332,8 +332,7 @@ int test_uni_io() {
 int test_std_io() {
     BinF_IO bio;
 
-    char *fn = "../../python/x010_data_c_std.binf";
-    // char *fn = "../../python/x010_data.binf";
+    char *fn = "x010_data_c_std.binf";
 
     // ----------------------------------------------
     FILE *fo = fopen(fn,"wb"); // create and truncate, binary
@@ -372,7 +371,7 @@ int test_std_io() {
 //   - popen/pclose
 int test_zip_io() {
     BinF_IO bio;
-    char *fn = "../../python/x010_data_c_zip.binf.xz";
+    char *fn = "x010_data_c_zip.binf.xz";
     const int N=256;
     char buf[N];
     int ret;

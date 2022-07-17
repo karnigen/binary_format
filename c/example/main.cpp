@@ -299,7 +299,7 @@ int check_reader(BinF_IO *bio) {
 // ######################################################################################
 // - uni io open/read/write
 int test_uni_io() {
-    const char *fn = "../../python/x010_data_cpp_uni.binf";
+    const char *fn = "x010_data_cpp_uni.binf";
 
     // uni IO for binf format
     BinF_IO bio;
@@ -338,7 +338,7 @@ int test_uni_io() {
 // ######################################################################################
 // - std io - fopen,fwrite,fread
 int test_std_io() {
-    const char *fn = "../../python/x010_data_cpp_std.binf";
+    const char *fn = "x010_data_cpp_std.binf";
 
     // basic IO for binf format
     BinF_IO bio;
@@ -379,7 +379,7 @@ int test_std_io() {
 //   - popen/pclose
 int test_lzma_read() {
     BinF_IO bio;
-    const char *fn = "../../python/x010_data_cpp_zip.binf.xz";
+    const char *fn = "x010_data_cpp_zip.binf.xz";
     const int N=256;
     char buf[N];
     int ret;
