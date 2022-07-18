@@ -2,7 +2,7 @@
 #define _BINARY_FORMAT_HPP_
 
 #ifdef __THIS_IS_COMMENT__
-// - must be accepted by C, C++ and FORTRAN(most restictive)
+// - must be accepted by C, C++ and FORTRAN (most restrictive)
 
 // - BINF_VAL_LENGTH defines max scalar values storage space
 //    - assuming complex requires 2x16B=32B
