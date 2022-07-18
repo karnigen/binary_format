@@ -1,4 +1,6 @@
 
+// Copyright 2022 Tony Karnigen
+
 // c interface for binary_format
 
 #include <stdio.h>

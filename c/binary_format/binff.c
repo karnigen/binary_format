@@ -1,4 +1,6 @@
 
+// Copyright 2022 Tony Karnigen
+
 // fortran interface for binary_format
 
 #include <stdio.h>

@@ -2,6 +2,8 @@
 #define _BINARY_FORMAT_HPP_
 
 #ifdef __THIS_IS_COMMENT__
+//   Copyright 2022 Tony Karnigen
+
 // - must be accepted by C, C++ and FORTRAN (most restrictive)
 
 // - BINF_VAL_LENGTH defines max scalar values storage space

@@ -1,5 +1,7 @@
 #include "binf.hpp"
 
+! Copyright 2022 Tony Karnigen
+
 ! data types as 
 module binff_types
     use, intrinsic :: iso_c_binding

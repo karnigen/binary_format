@@ -1,6 +1,8 @@
 #ifndef _BINARY_FORMAT_H_
 #define _BINARY_FORMAT_H_
 
+// Copyright 2022 Tony Karnigen
+
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
